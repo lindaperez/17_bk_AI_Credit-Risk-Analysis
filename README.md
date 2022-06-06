@@ -24,7 +24,7 @@ credit_risk_ensemble
 
 ### Oversampling **Random Oversampling**
 
-- Accuracy: 
+- Accuracy: 0.66
 - Precision: 1.0
 - Recall: 0.66
 - F1_score: 0.79
@@ -41,6 +41,7 @@ Incorrect predictions: 5833 33.9 %
 - Accuracy: 0.65
 - Precision: 1.0
 - Recall: 0.65
+- F1-score:: 0.79 
 
 Total Predictions 17205
 Correct predictions: 11178 64.97 %
@@ -53,6 +54,7 @@ Incorrect predictions: 6027 35.03 %
 - Accuracy: 0.48
 - Precision: 1.0
 - Recall: 0.48
+- F1-score:: 0.64 
 
 Total Predictions 17205
 Correct predictions: 8210 47.72 %
@@ -65,6 +67,7 @@ Incorrect predictions: 8995 52.28 %
 - Accuracy: 0.57
 - Precision: 1.0
 - Recall: 0.57
+- F1-score:: 0.72 
 
 Total Predictions 17205
 Correct predictions: 8210 47.72 %
@@ -72,9 +75,33 @@ Incorrect predictions: 8995 52.28 %
 
 * Proportion of correct predictions: **accuracy score** 57% Lower than some previous models. The **Precision:** is same to previous models 100%. **Recall:** The proportion of positive values correctly predicted is lower than some previous models 57%.
 
+## Ensemble Learning **BalancedRandomForestClassifier**
 
+- Accuracy: 0.92
+- Precision: 0.04
+- Recall: 0.61
+- F1_score: 0.07
+
+Total Predictions 17205
+Correct predictions: 15767 91.64 %
+Incorrect predictions: 1438 8.36 %
+
+* Proportion of correct predictions: **accuracy score** 57% Lower than some previous models. The **Precision:** is same to previous models 100%. **Recall:** The proportion of positive values correctly predicted is lower than some previous models 57%.
+
+ ## Ensemble Learning **EasyEnsembleClassifier** 
+ 
+- Accuracy: 0.95
+- Precision: 0.1
+- Recall: 0.92
+- F1_score: 0.18
+
+Total Predictions 17205
+Correct predictions: 16403 95.34 %
+Incorrect predictions: 802 4.66 %
 
 ## Summary:
+
+The metrics of the minority class (precision, recall, and F1 score) did not improved over those of random oversampling.
 
 ### Results Summary
 
