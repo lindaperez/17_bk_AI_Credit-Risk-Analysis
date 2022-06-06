@@ -105,11 +105,9 @@ Incorrect predictions: 802 4.66 %
 
 * The metrics of the minority class (precision, recall, and F1 score) did not improved over those of random oversampling.
 
-* The precision for loan status low risk is high, indicating that there are not high number of false positives in all models which indicates an reliable positive classification. The recall is more than 50% for all models, which is not indicative of hight amount of false negatives. The F1 score is over 70% for some most of the models except for the undersampling, Cluster Centroid Undersampling and the combination (Over and Under) Sampling where the f1 score displayed was below 57%.
-
-In summary, this random forest model is not good at classifying fraudulent loan applications because the model's accuracy, 0.520, and F1 score are low.
+* In summary, The precision for loan status low risk is high, indicating that there are not high number of false positives in all models which indicates an reliable positive classification. The recall is more than 50% for all models, which is not indicative of hight amount of false negatives. The F1 score is over 70% for some most of the models except for the undersampling, Cluster Centroid Undersampling and the combination (Over and Under) Sampling where the f1 score displayed was below 57%.
 
 
 ### Which model to use?
 
-The models with best metrics BalancedRandomForestClassifier, Ensemble Learning are valid candidates for sampling the data and reduce the imbalance between loan status low risk and high risk. 
+The models with best metrics reported for accuracy and f1 score and a balance percentage between precision and recall like **BalancedRandomForestClassifier**,  **EasyEnsembleClassifier** are valid candidates for sampling the data and reduce the imbalance between loan status low risk and high risk. 
