@@ -29,9 +29,9 @@ credit_risk_ensemble
 - Recall: 0.66
 - F1_score: 0.79
 
-Total Predictions 17205
-Correct predictions: 11372 66.1 %
-Incorrect predictions: 5833 33.9 %
+- Total Predictions 17205
+- Correct predictions: 11372 66.1 %
+- Incorrect predictions: 5833 33.9 %
 
 * Proportion of correct predictions: **accuracy score** 66%. The **precision** from all the values predicted as positive returns the proportion of true positives among all the values predicted as positive. There is not a high amount of false positives for category 1 (loan status low risk). The **recall** returns the proportion of positive values correctly predicted. It can be determined by the ratio: TP/(TP + FN). A low recall is indicative of a large number of false negatives. There is a large number of False negative for both categories loan status risk and high risk 66%, 67% respectively, nevertheless the percentages are above 50%.
 
@@ -43,9 +43,9 @@ Incorrect predictions: 5833 33.9 %
 - Recall: 0.65
 - F1-score:: 0.79 
 
-Total Predictions 17205
-Correct predictions: 11178 64.97 %
-Incorrect predictions: 6027 35.03 %
+- Total Predictions 17205
+- Correct predictions: 11178 64.97 %
+- Incorrect predictions: 6027 35.03 %
 
 * Proportion of correct predictions: **accuracy score** 65% lower that the previous model. The **Precision:** , the model is 100% reliable. **Recall:** There is a large number of False negative for both categories loan status low risk and high risk nevertheless the percetages are above 50%, 65%, 58% respectively. **F1 score:** is a weighted average of the true positive rate (recall) and precision, where the best score is 1.0 and the worst is 0.0.
 
@@ -56,9 +56,9 @@ Incorrect predictions: 6027 35.03 %
 - Recall: 0.48
 - F1-score:: 0.64 
 
-Total Predictions 17205
-Correct predictions: 8210 47.72 %
-Incorrect predictions: 8995 52.28 %
+- Total Predictions 17205
+- Correct predictions: 8210 47.72 %
+- Incorrect predictions: 8995 52.28 %
 
 * Proportion of correct predictions: **accuracy score** 48% the lower among all models. **Precision:** Same to previous models 100%. **Recall:** The numbers of false negatives in this model increased respect the previous model. The proportion of positive values correctly predicted for this model is the worst among all models.
 
@@ -69,9 +69,9 @@ Incorrect predictions: 8995 52.28 %
 - Recall: 0.57
 - F1-score:: 0.72 
 
-Total Predictions 17205
-Correct predictions: 8210 47.72 %
-Incorrect predictions: 8995 52.28 %
+- Total Predictions 17205
+- Correct predictions: 8210 47.72 %
+- Incorrect predictions: 8995 52.28 %
 
 * Proportion of correct predictions: **accuracy score** 57% Lower than some previous models. The **Precision:** is same to previous models 100%. **Recall:** The proportion of positive values correctly predicted is lower than some previous models 57%.
 
@@ -82,9 +82,9 @@ Incorrect predictions: 8995 52.28 %
 - Recall: 0.61
 - F1_score: 0.95
 
-Total Predictions 17205
-Correct predictions: 15767 91.64 %
-Incorrect predictions: 1438 8.36 %
+- Total Predictions 17205
+- Correct predictions: 15767 91.64 %
+- Incorrect predictions: 1438 8.36 %
 
 * Proportion of correct predictions: **accuracy score** 57% Lower than some previous models. The **Precision:** is same to previous models 100%. **Recall:** The proportion of positive values correctly predicted is lower than some previous models 57%.
 
@@ -95,9 +95,9 @@ Incorrect predictions: 1438 8.36 %
 - Recall: 0.92
 - F1_score: 0.97
 
-Total Predictions 17205
-Correct predictions: 16403 95.34 %
-Incorrect predictions: 802 4.66 %
+- Total Predictions 17205
+- Correct predictions: 16403 95.34 %
+- Incorrect predictions: 802 4.66 %
 
 ### Summary
 
