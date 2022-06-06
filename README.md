@@ -62,7 +62,7 @@ Incorrect predictions: 8995 52.28 %
 
 * Proportion of correct predictions: **accuracy score** 48% the lower among all models. **Precision:** Same to previous models 100%. **Recall:** The numbers of false negatives in this model increased respect the previous model. The proportion of positive values correctly predicted for this model is the worst among all models.
 
-**Combination (Over and Under) Sampling**
+### **Combination (Over and Under) Sampling**
 
 - Accuracy: 0.57
 - Precision: 1.0
@@ -80,7 +80,7 @@ Incorrect predictions: 8995 52.28 %
 - Accuracy: 0.92
 - Precision: 0.04
 - Recall: 0.61
-- F1_score: 0.07
+- F1_score: 0.95
 
 Total Predictions 17205
 Correct predictions: 15767 91.64 %
@@ -88,21 +88,28 @@ Incorrect predictions: 1438 8.36 %
 
 * Proportion of correct predictions: **accuracy score** 57% Lower than some previous models. The **Precision:** is same to previous models 100%. **Recall:** The proportion of positive values correctly predicted is lower than some previous models 57%.
 
- ## Ensemble Learning **EasyEnsembleClassifier** 
+ ### Ensemble Learning **EasyEnsembleClassifier** 
  
 - Accuracy: 0.95
 - Precision: 0.1
 - Recall: 0.92
-- F1_score: 0.18
+- F1_score: 0.97
 
 Total Predictions 17205
 Correct predictions: 16403 95.34 %
 Incorrect predictions: 802 4.66 %
 
-## Summary:
-
-The metrics of the minority class (precision, recall, and F1 score) did not improved over those of random oversampling.
+### Summary
 
 ### Results Summary
 
+* The metrics of the minority class (precision, recall, and F1 score) did not improved over those of random oversampling.
+
+* The precision for loan status low risk is high, indicating that there are not high number of false positives in all models which indicates an reliable positive classification. The recall is more than 50% for all models, which is not indicative of hight amount of false negatives. The F1 score is over 70% for some most of the models except for the undersampling, Cluster Centroid Undersampling and the combination (Over and Under) Sampling where the f1 score displayed was below 57%.
+
+In summary, this random forest model is not good at classifying fraudulent loan applications because the model's accuracy, 0.520, and F1 score are low.
+
+
 ### Which model to use?
+
+The models with best metrics BalancedRandomForestClassifier, Ensemble Learning are valid candidates for sampling the data and reduce the imbalance between loan status low risk and high risk. 
