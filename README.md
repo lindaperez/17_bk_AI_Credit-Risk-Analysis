@@ -104,7 +104,7 @@ credit_risk_ensemble
 
 ### Results Summary
 
-* The metrics of the minority class (precision, recall, and F1 score) did not improved over those of random oversampling.
+* The metrics of the minority class (precision, recall, and F1 score) did not improve over those of random oversampling.
 
 * In summary, The precision for loan status low risk is high, indicating that there are not high number of false positives in all models which indicates an reliable positive classification. The recall is more than 50% for all models, which is not indicative of hight amount of false negatives. The F1 score is over 70% for some most of the models except for the undersampling, Cluster Centroid Undersampling and the combination (Over and Under) Sampling where the f1 score displayed was below 57%.
 
