@@ -1,7 +1,13 @@
 # Credit Risk Analysis
-## Overview of the loan prediction risk analysis:
+## Overview
 
-This report provides an overview of the loan prediction risk analysis conducted, which involved performing a credit risk analysis from scratch to develop a solution for an unbalanced classification problem.
+Machine Learning application that aims to predict credit risk and provide a quicker and more reliable loan experience. By accurately identifying good candidates for a loan, it can help reduce default rates. The model will be trained using relevant credit data and will be designed to provide accurate predictions on whether an applicant is likely to repay the loan or not. This can help financial institutions make more informed decisions about whom to lend money to and how much to lend. Ultimately, the goal of this machine learning application is to improve the lending process and reduce the risk of default for lenders
+
+Development Plan 
+
+- Evaluate several Machine Learning Models to predict Credit Risk
+- Using techniques like Resampling and boosting over the data
+- Evaluate the performance
 
 To address this problem, various techniques were employed to train and evaluate models with unbalanced classes. The imbalanced-learn and scikit-learn libraries were used to build and evaluate models using resampling. The credit card credit dataset from LendingClub, a peer-to-peer lending services company, was used to oversample the data using the RandomOverSampler and SMOTE algorithms, as well as undersample the data using the ClusterCentroids algorithm.
 
@@ -14,8 +20,6 @@ credit_risk_resampling
 
 credit_risk_ensemble
   * Ensemble Classifiers to Predict Credit Risk
-
-
 
 ## Results:
 
